@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,500&display=swap');
+
+
+.container {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.form-container {
+    font-family: 'Ubuntu', sans-serif;
+    flex: 0 0 250px;
+}
+
+.filter-container {
+    font-family: 'Ubuntu', sans-serif;
+    flex: 0 0 250px;
+}
+
+.student-list-container {
+    font-family: 'Ubuntu', sans-serif;
+    flex: 1;
+}
+
+.form-group {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+#name-input,
+#age-input,
+#class-select,
+#filter-name-input,
+#filter-age-input,
+#filter-class-select {
+    flex: 1;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#name-input,
+#age-input,
+#class-select {
+    margin-left: auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.student-list {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Update styles as needed */
